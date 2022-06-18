@@ -1,5 +1,13 @@
 package za.ac.cput.schoolmanagement.service.student;
 
+
+/**
+ * @author Honest Mpungu
+ * Student No:215072081
+ * Group:24
+ * June Test
+ */
+
 import za.ac.cput.schoolmanagement.domain.Student;
 
 import java.util.List;
@@ -14,5 +22,7 @@ public interface IStudentService  {
 
     public void delete(String id) ;
 
-    void save(Student student);
+    Student save(Student student);
+
+    List<Student> findAll();
 }

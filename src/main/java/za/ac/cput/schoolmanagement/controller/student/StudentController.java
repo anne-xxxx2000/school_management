@@ -16,7 +16,7 @@ import java.util.List;
  * @author Honest Mpungu
  * Student No:215072081
  * Group:24
- *
+ * June test
  */
 @RestController
 @RequestMapping("/studentapi")

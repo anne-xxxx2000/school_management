@@ -4,7 +4,7 @@ package za.ac.cput.schoolmanagement.factory;
  * @author Honest Mpungu
  * Student No:215072081
  * Group:24
- *
+ * June Test
  */
 
 import za.ac.cput.schoolmanagement.domain.Name;
