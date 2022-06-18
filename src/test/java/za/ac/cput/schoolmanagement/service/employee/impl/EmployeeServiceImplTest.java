@@ -1,4 +1,4 @@
-package za.ac.cput.schoolmanagement.factory;
+package za.ac.cput.schoolmanagement.service.employee.impl;
 
 /*
  * Author: Emeka Thato Nwamadi
@@ -8,5 +8,5 @@ package za.ac.cput.schoolmanagement.factory;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class EmployeeFactoryTest {
+public class EmployeeServiceImplTest {
 }
