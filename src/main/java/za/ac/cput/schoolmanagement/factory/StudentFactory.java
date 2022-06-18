@@ -1,6 +1,5 @@
 package za.ac.cput.schoolmanagement.factory;
 
-
 /**
  * @author Honest Mpungu
  * Student No:215072081
@@ -8,14 +7,12 @@ package za.ac.cput.schoolmanagement.factory;
  *
  */
 
+import za.ac.cput.schoolmanagement.domain.Name;
 import za.ac.cput.schoolmanagement.domain.Student;
 
 public class StudentFactory {
-    public static Student createStudent( String studentId, String name,String email) {
-        return new Student.Builder()
-                .setStudentId(studentId)
-                .setName(name)
-                .setEmail(email)
-                .build();
+    public static Student createStudent( String studentId, String email, Name name) {
+        return new Student.Builder().setStudentId(studentId).setEmail(email).setName(name).build();
+
     }
 }
